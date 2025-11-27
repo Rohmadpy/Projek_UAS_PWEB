@@ -1,0 +1,18 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
+
+class ActivityCategory extends Model
+{
+    use HasFactory;
+
+    protected $fillable = ['name', 'slug', 'icon'];
+
+    public function cafes()
+    {
+        return $this->belongsToMany(Cafe::class, 'cafe_activity')->withTimestamps();
+    }
+}
