@@ -13,7 +13,7 @@
                 <i class="fas fa-user-plus text-2xl"></i>
             </div>
             <h2 class="text-3xl font-bold text-white">Daftar Akun</h2>
-            <p class="text-white/70">Buat akun Café Finder</p>
+            <p class="text-white/70">Buat akun CaffeSpot</p>
         </div>
 
         <!-- FORM -->

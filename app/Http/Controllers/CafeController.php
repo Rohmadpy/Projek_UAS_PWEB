@@ -113,7 +113,7 @@ class CafeController extends Controller
 
         $lat = $request->input('latitude');
         $lng = $request->input('longitude');
-        $radius = $request->input('radius', 5); // default 5 km
+        $radius = $request->input('radius', 5);
 
         $cafes = Cafe::selectRaw("
                 *,

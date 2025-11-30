@@ -9,8 +9,8 @@
     <div class="relative rounded-3xl p-10 mb-10 overflow-hidden shadow-xl bg-gradient-to-tr from-amber-500 to-orange-500">
 
         <div class="relative z-10">
-            <h1 class="text-4xl font-bold">Temukan Café Favoritmu ☕</h1>
-            <p class="text-xl text-white/80">{{ $cafes->total() }} café tersedia untuk kamu</p>
+            <h1 class="text-4xl font-bold">Temukan Cafe Favoritmu</h1>
+            <p class="text-xl text-white/80">{{ $cafes->total() }} cafe yang tersedia untuk kamu</p>
         </div>
 
         <div class="absolute inset-0 opacity-20"
@@ -26,7 +26,7 @@
             <div class="grid grid-cols-1 md:grid-cols-4 gap-4 mb-4">
 
                 <input type="text" name="search" value="{{ request('search') }}"
-                    placeholder="Cari café..."
+                    placeholder="Cari cafe..."
                     class="input-ui">
 
                 <select name="city" class="input-ui">
@@ -153,7 +153,7 @@
 
     <div class="text-center py-16 text-white/60">
         <i class="fas fa-search text-6xl mb-4"></i>
-        <p class="text-lg">Tidak ada café ditemukan</p>
+        <p class="text-lg">Tidak ada cafe ditemukan</p>
         <a href="{{ route('cafes.index') }}" class="text-amber-400 underline">Reset filter</a>
     </div>
 

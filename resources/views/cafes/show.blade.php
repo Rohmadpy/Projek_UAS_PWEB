@@ -192,13 +192,13 @@
 
                 <a href="{{ route('cafes.nearby') }}"
                    class="block w-full py-3 text-center border border-white/10 rounded-xl hover:bg-white/5 transition">
-                    <i class="fas fa-map-marker-alt mr-2"></i> Café Terdekat
+                    <i class="fas fa-map-marker-alt mr-2"></i> Cafe Terdekat
                 </a>
             </div>
 
             <!-- INFO -->
             <div class="glass p-6 rounded-2xl shadow-xl border border-white/10">
-                <h3 class="text-xl font-bold mb-4">Informasi Café</h3>
+                <h3 class="text-xl font-bold mb-4">Informasi Cafe</h3>
                 <div class="space-y-3 text-white/80">
                     <div>
                         <p class="text-sm text-white/60">Alamat</p>

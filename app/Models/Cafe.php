@@ -28,12 +28,13 @@ class Cafe extends Model
         'total_reviews',
         'is_active',
     ];
-
     protected $casts = [
         'is_active' => 'boolean',
         'avg_rating' => 'decimal:2',
         'latitude' => 'decimal:8',
         'longitude' => 'decimal:8',
+        'open_time' => 'datetime:H:i',   // ← TAMBAH INI
+        'close_time' => 'datetime:H:i',  // ← TAMBAH INI
     ];
 
     public function facilities()

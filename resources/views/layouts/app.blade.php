@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    <title>@yield('title', 'Café Finder')</title>
+    <title>@yield('title', 'CaffeSpot')</title>
 
     <!-- Tailwind -->
     <script src="https://cdn.tailwindcss.com"></script>
@@ -64,7 +64,7 @@
     <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
 
         <a href="{{ route('home') }}" class="flex items-center gap-2 text-xl text-amber-400 font-bold animate-float">
-            <i class="fas fa-mug-hot"></i> Café Finder
+            <i class="fas fa-mug-hot"></i> CaffeSpot
         </a>
 
         <div class="hidden md:flex gap-8 items-center">
@@ -130,8 +130,8 @@
     <div class="max-w-7xl mx-auto grid md:grid-cols-3 gap-10 px-6 py-14">
 
         <div>
-            <h2 class="text-xl text-amber-400 font-bold mb-3">Café Finder</h2>
-            <p class="text-white/70">Cari tempat ngopi favorit dengan rasa premium.</p>
+            <h2 class="text-xl text-amber-400 font-bold mb-3">CaffeSpot</h2>
+            <p class="text-white/70">Nyari Tempat Tikum Terbaikmu.</p>
         </div>
 
         <div>
@@ -145,14 +145,14 @@
 
         <div>
             <h3 class="font-semibold mb-3">Kontak</h3>
-            <p class="text-white/70"><i class="fas fa-envelope"></i> info@cafefinder.com</p>
+            <p class="text-white/70"><i class="fas fa-envelope"></i> info@caffespot.com</p>
             <p class="text-white/70"><i class="fas fa-map-marker-alt"></i> Jember</p>
         </div>
 
     </div>
 
     <div class="border-t border-white/10 text-center py-4 text-white/50">
-        &copy; {{ date('Y') }} Café Finder
+        &copy; {{ date('Y') }} CaffeSpot. All rights reserved.
     </div>
 </footer>
 

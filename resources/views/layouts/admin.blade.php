@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    <title>@yield('title', 'Admin Panel') - Café Finder</title>
+    <title>@yield('title', 'Admin Panel') - CaffeSpot</title>
 
     <script src="https://cdn.tailwindcss.com"></script>
 
@@ -65,7 +65,7 @@
                 <a href="{{ route('admin.dashboard') }}"
                     class="flex items-center gap-3 text-xl font-bold text-amber-400">
                     <i class="fas fa-mug-hot animate-pulse"></i>
-                    Café Finder
+                    CaffeSpot
                 </a>
                 <p class="text-xs text-white/60">Admin Control Panel</p>
             </div>
@@ -76,7 +76,7 @@
                 @php
                     $nav = [
                         ['admin.dashboard', 'tachometer-alt', 'Dashboard'],
-                        ['admin.cafes.index', 'store', 'Kelola Café'],
+                        ['admin.cafes.index', 'store', 'Kelola Cafe'],
                         ['admin.reviews.index', 'star', 'Kelola Review'],
                         ['admin.users.index', 'users', 'Kelola User'],
                     ];

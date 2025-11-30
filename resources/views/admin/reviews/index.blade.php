@@ -24,7 +24,7 @@
         </select>
 
         <input type="text" name="search" value="{{ request('search') }}"
-            placeholder="Cari café atau user..." class="filter-input flex-1">
+            placeholder="Cari cafe atau user..." class="filter-input flex-1">
 
         <button type="submit" class="btn-primary">
             <i class="fas fa-search mr-1"></i> Cari
@@ -38,7 +38,7 @@
     <table class="min-w-full text-sm">
         <thead>
             <tr class="bg-gray-100 text-gray-600 text-xs uppercase">
-                <th class="cell-header">Café</th>
+                <th class="cell-header">Cafe</th>
                 <th class="cell-header">User</th>
                 <th class="cell-header">Rating</th>
                 <th class="cell-header">Komentar</th>

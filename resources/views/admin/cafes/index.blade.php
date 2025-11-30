@@ -7,12 +7,12 @@
 <!-- HEADER -->
 <div class="flex justify-between items-center mb-6">
     <div>
-        <h2 class="text-3xl font-bold text-gray-800">Kelola Café</h2>
-        <p class="text-gray-500">Total: {{ $cafes->total() }} café</p>
+        <h2 class="text-3xl font-bold text-gray-800">Kelola Cafe</h2>
+        <p class="text-gray-500">Total: {{ $cafes->total() }} cafe</p>
     </div>
 
     <a href="{{ route('admin.cafes.create') }}" class="btn-primary">
-        <i class="fas fa-plus mr-2"></i>Tambah Café
+        <i class="fas fa-plus mr-2"></i>Tambah Cafe
     </a>
 </div>
 
@@ -21,7 +21,7 @@
     <table class="min-w-full text-sm">
         <thead>
             <tr class="bg-gray-100 text-gray-600 text-xs uppercase">
-                <th class="cell-header">Café</th>
+                <th class="cell-header">Cafe</th>
                 <th class="cell-header">Kota</th>
                 <th class="cell-header">Rating</th>
                 <th class="cell-header">Status</th>
@@ -79,7 +79,7 @@
                         </a>
 
                         <form method="POST" action="{{ route('admin.cafes.destroy', $cafe) }}"
-                              onsubmit="return confirm('Yakin hapus café ini?')">
+                              onsubmit="return confirm('Yakin hapus cafe ini?')">
                             @csrf
                             @method('DELETE')
                             <button class="icon-btn text-red-600" title="Hapus">
@@ -93,7 +93,7 @@
             </tr>
         @empty
             <tr>
-                <td colspan="5" class="text-center text-gray-500 py-6">Belum ada café</td>
+                <td colspan="5" class="text-center text-gray-500 py-6">Belum ada cafe</td>
             </tr>
         @endforelse
 

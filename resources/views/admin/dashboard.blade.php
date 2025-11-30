@@ -7,7 +7,7 @@
 <!-- HEADER -->
 <div class="mb-8 flex items-center justify-between">
     <h1 class="text-3xl font-bold text-gray-800">Dashboard Admin</h1>
-    <span class="text-sm text-gray-500">Overview sistem Café Finder</span>
+    <span class="text-sm text-gray-500">Overview sistem SpotCaffe</span>
 </div>
 
 <!-- STATS -->
@@ -17,7 +17,7 @@
     <div class="glass-card border-l-8 border-amber-500">
         <div class="flex justify-between items-center">
             <div>
-                <p class="stat-title">Total Café</p>
+                <p class="stat-title">Total Cafe</p>
                 <p class="stat-value">{{ $stats['total_cafes'] }}</p>
                 <p class="stat-sub text-green-600">{{ $stats['active_cafes'] }} aktif</p>
             </div>
@@ -84,7 +84,7 @@
 
     <!-- TOP CAFES -->
     <div class="glass-box">
-        <h2 class="section-title">Top 5 Café</h2>
+        <h2 class="section-title">Top 5 Cafe</h2>
 
         @foreach($top_cafes as $cafe)
         <div class="flex items-center gap-4 list-item">
@@ -176,6 +176,7 @@
     font-size: 1.2rem;
     font-weight: 700;
     margin-bottom: 1rem;
+    color: #111827 !important; /* ← HITAM (gray-900) */
 }
 
 .list-item {

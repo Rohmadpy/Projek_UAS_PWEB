@@ -11,7 +11,7 @@
             <h1 class="text-4xl font-bold bg-gradient-to-r from-amber-400 to-orange-500 bg-clip-text text-transparent">
                 Dashboard
             </h1>
-            <p class="text-white/60 mt-1">Selamat datang kembali di Café Finder</p>
+            <p class="text-white/60 mt-1">Selamat datang kembali di CaffeSpot</p>
         </div>
 
         <div class="hidden md:flex items-center gap-4">
@@ -21,7 +21,7 @@
             </a>
             <a href="{{ route('cafes.nearby') }}"
                class="bg-amber-500 hover:bg-amber-600 px-6 py-2 rounded-xl transition shadow-lg">
-                <i class="fas fa-map-marker-alt mr-2"></i>Cari Café
+                <i class="fas fa-map-marker-alt mr-2"></i>Cari Cafe
             </a>
         </div>
     </div>
@@ -33,7 +33,7 @@
         <div class="glass p-6 rounded-2xl shadow-lg hover:scale-105 transition" data-aos="zoom-in">
             <div class="flex justify-between">
                 <div>
-                    <h4 class="text-white/60">Café Favorit</h4>
+                    <h4 class="text-white/60">Cafe Favorit</h4>
                     <h2 class="text-3xl font-bold">{{ $favoriteCount ?? '0' }}</h2>
                 </div>
                 <div class="text-amber-400 text-3xl">
@@ -74,7 +74,7 @@
 
         <a href="{{ route('cafes.nearby') }}" class="glass rounded-2xl p-8 hover:scale-105 transition">
             <h3 class="text-xl font-bold text-amber-400 mb-2">
-                Temukan Café Terdekat
+                Temukan Cafe Terdekat
             </h3>
             <p class="text-white/60">Cari berdasarkan lokasi kamu sekarang.</p>
         </a>
@@ -83,7 +83,7 @@
             <h3 class="text-xl font-bold text-pink-400 mb-2">
                 Daftar Favorit
             </h3>
-            <p class="text-white/60">Lihat café favoritmu.</p>
+            <p class="text-white/60">Lihat cafe favoritmu.</p>
         </a>
 
     </div>

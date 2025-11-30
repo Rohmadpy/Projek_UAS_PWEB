@@ -13,7 +13,7 @@
                 <i class="fas fa-coffee text-2xl"></i>
             </div>
             <h2 class="text-3xl font-bold text-white">Login</h2>
-            <p class="text-white/70">Masuk ke Cafe Finder</p>
+            <p class="text-white/70">Masuk ke CaffeSpot</p>
         </div>
 
         <!-- FORM -->

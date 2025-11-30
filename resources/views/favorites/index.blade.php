@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Café Favorit Saya')
+@section('title', 'Cafe Favoritku')
 
 @section('content')
 <div class="max-w-7xl mx-auto px-6 py-12">
@@ -9,13 +9,13 @@
     <div class="flex flex-wrap justify-between items-center mb-10">
         <div>
             <h1 class="text-4xl font-bold bg-gradient-to-r from-amber-400 to-orange-500 bg-clip-text text-transparent">
-                Café Favorit Saya
+                Cafe Favoritku
             </h1>
-            <p class="text-white/60 mt-1">{{ $favorites->total() }} café tersimpan</p>
+            <p class="text-white/60 mt-1">{{ $favorites->total() }} cafe tersimpan</p>
         </div>
 
         <a href="{{ route('cafes.index') }}" class="mt-4 md:mt-0 bg-amber-500 hover:bg-amber-600 text-white px-6 py-3 rounded-xl shadow-lg transition hover:scale-105">
-            <i class="fas fa-plus mr-2"></i>Tambah Café
+            <i class="fas fa-plus mr-2"></i>Tambah Cafe
         </a>
     </div>
 
@@ -98,11 +98,11 @@
         <!-- EMPTY -->
         <div class="text-center py-20">
             <i class="fas fa-heart-broken text-7xl text-white/30 mb-4"></i>
-            <h2 class="text-2xl font-bold mb-2">Belum Ada Café Favorit</h2>
-            <p class="text-white/60 mb-6">Yuk mulai koleksi café favorit kamu</p>
+            <h2 class="text-2xl font-bold mb-2">Belum Ada Cafe Favorit</h2>
+            <p class="text-white/60 mb-6">Yuk mulai koleksi cafe favorit kamu</p>
             <a href="{{ route('cafes.index') }}"
                class="bg-amber-500 hover:bg-amber-600 px-8 py-4 rounded-xl transition inline-block">
-                <i class="fas fa-search mr-2"></i>Cari Café
+                <i class="fas fa-search mr-2"></i>Cari Cafe
             </a>
         </div>
     @endif

@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Café Terdekat')
+@section('title', 'Cafe Terdekat')
 
 @section('content')
 <div class="max-w-7xl mx-auto px-6 py-12" data-aos="fade-up">
@@ -8,14 +8,14 @@
     <!-- HEADER -->
     <div class="flex flex-col md:flex-row md:justify-between md:items-center mb-10">
         <div>
-            <h1 class="text-4xl font-bold text-amber-400">Café Terdekat</h1>
-            <p class="text-white/60 mt-1">Temukan café favoritmu di sekitar lokasi saat ini</p>
+            <h1 class="text-4xl font-bold text-amber-400">Cafe Terdekat</h1>
+            <p class="text-white/60 mt-1">Temukan cafe favoritmu di sekitar lokasi saat ini</p>
         </div>
 
         <div class="mt-4 md:mt-0">
             <a href="{{ route('cafes.index') }}"
                class="inline-flex items-center bg-white/10 hover:bg-white/20 px-4 py-2 rounded-lg transition">
-                <i class="fas fa-th mr-2"></i> Semua Café
+                <i class="fas fa-th mr-2"></i> Semua Cafe
             </a>
         </div>
     </div>
@@ -74,7 +74,7 @@
 
                 <button type="submit"
                     class="bg-amber-500 hover:bg-amber-600 text-white px-6 py-2 rounded-lg transition shadow">
-                    <i class="fas fa-search mr-2"></i> Cari Café
+                    <i class="fas fa-search mr-2"></i> Cari Cafe
                 </button>
             </div>
 
@@ -142,7 +142,7 @@
         <!-- No Cafes Found -->
         <div class="text-center py-20 text-white/60">
             <i class="fas fa-map-marked-alt text-7xl mb-4"></i>
-            <h2 class="text-xl font-bold">Tidak Ada Café Terdekat</h2>
+            <h2 class="text-xl font-bold">Tidak Ada Cafe Terdekat</h2>
             <p>Coba perbesar radius pencarian.</p>
         </div>
 
